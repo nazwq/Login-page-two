@@ -1,0 +1,148 @@
+.login-one {
+  background-color: #e3e3e3;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 540px;
+}
+
+body {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f3f2;
+  margin: 0;
+}
+
+.login-two {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-family: Helvetica;
+}
+
+.mail {
+  width: 90%;
+  height: 35px;
+  display: flex;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.input {
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+input {
+  outline: none;
+}
+
+.password {
+  width: 90%;
+  height: 35px;
+  display: flex;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.wrapper {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.giris-yap {
+  border-radius: 12px;
+  width: 300px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+.text {
+  font-size: 15px;
+  font-family: Helvetica;
+  padding-left: 45px;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 8px;
+  width: 300px;
+  height: 45px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.btn div {
+  display: flex;
+  flex: 1;
+}
+.text-github {
+  display: flex;
+  flex: 3 !important;
+  font-size: 15px;
+}
+.test-github {
+  padding-left: 10px;
+}
+
+.text-twitter {
+  display: flex;
+  flex: 3 !important;
+  font-size: 15px;
+}
+
+.test-twitter {
+  padding-left: 10px;
+}
+
+.test-facebook {
+  padding-left: 10px;
+}
+
+.text-facebook {
+  display: flex;
+  flex: 3 !important;
+  font-size: 15px;
+}
+
+.fa-github {
+  font-size: 22px;
+}
+
+.fa-twitter {
+  font-size: 22px;
+}
+
+.fa-facebook {
+  font-size: 22px;
+}
+
+.twitter {
+  background-color: #13dbed;
+}
+
+.facebook {
+  background-color: #0579f5;
+}
+
+.icons {
+  height: 65%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
